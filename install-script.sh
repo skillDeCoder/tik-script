@@ -66,23 +66,9 @@ echo "Node.js, npm, and npx are ready!"
 # =========================
 # Optional: Install Playwright Chromium
 # =========================
-while true; do
-    read -p "Install Playwright Chromium? (y/n): " install_browser
-    case "$install_browser" in
-        y|Y) 
-            echo "Installing Playwright Chromium..."
-            npx playwright install chromium
-            break
-            ;;
-        n|N) 
-            echo "Skipping Playwright installation."
-            break
-            ;;
-        *) 
-            echo "Please enter 'y' or 'n'."
-            ;;
-    esac
-done
+echo "Installing chromium  browser ...."
+
+ npx playwright install chromium
 
 # =========================
 # Download binary
