@@ -103,3 +103,5 @@ curl --progress-bar -L -o .env "https://drive.google.com/uc?export=download&id=$
 echo "Installation complete!"
 echo "You can now run the backend with:"
 echo "./tikscript"
+echo "tO stop use : ctrl + c"
+./tikscript
