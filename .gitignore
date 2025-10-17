@@ -43,7 +43,7 @@ lerna-debug.log*
 .env.local
 
 *.http
-# *.png
+*.png
 
 # temp directory
 .temp
@@ -68,5 +68,6 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
-
 /pkg
+
+pkg/

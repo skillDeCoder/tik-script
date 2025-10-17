@@ -105,7 +105,7 @@ export class TgBotService {
   handleButtonCommands = async (
     query: TelegramBot.CallbackQuery,
   ): Promise<unknown> => {
-    this.logger.debug(query);
+    // this.logger.debug(query);
     let command: string;
 
     // const username = `${query.from.username}`;
@@ -129,7 +129,7 @@ export class TgBotService {
     }
 
     try {
-      console.log(command);
+      // console.log(command);
 
       switch (command) {
         case '/menu':
