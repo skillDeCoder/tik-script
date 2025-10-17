@@ -68,7 +68,7 @@ echo "Node.js, npm, and npx are ready!"
 # =========================
 echo "Installing chromium  browser ...."
 
- npx playwright install chromium
+npx playwright install
 
 # =========================
 # Download binary
